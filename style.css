@@ -43,6 +43,16 @@ z-index:9999;
 box-shadow:0 10px 35px rgba(0,0,0,.35);
 }
 
+.navbar{
+transition:all .35s ease;
+}
+
+.navbar.scrolled{
+padding:10px 24px;
+background:rgba(8,8,8,.92);
+box-shadow:0 15px 45px rgba(0,0,0,.45);
+transform:translateX(-50%) scale(.98);
+}
 .brand{
 display:flex;
 align-items:center;
