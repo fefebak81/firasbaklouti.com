@@ -737,3 +737,13 @@ transition:.45s ease;
 transform:translateX(10px);
 
 }
+
+.hero-quote{
+margin-top:45px;
+font-size:1rem;
+font-style:italic;
+color:#8f8f8f;
+border-left:2px solid #c9a227;
+padding-left:20px;
+max-width:500px;
+}
