@@ -593,3 +593,41 @@ justify-self:start;
 margin-top:10px;
 
 }
+
+
+.contact-form{
+  max-width:760px;
+  margin:70px auto 0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+  width:100%;
+  background:#111;
+  border:1px solid rgba(255,255,255,.1);
+  color:#fff;
+  padding:18px 22px;
+  border-radius:16px;
+  font:inherit;
+}
+
+.contact-form textarea{
+  grid-column:1 / -1;
+  min-height:180px;
+  resize:vertical;
+}
+
+.contact-form button{
+  grid-column:1 / -1;
+  justify-self:center;
+}
+
+@media(max-width:700px){
+  .contact-form{
+    grid-template-columns:1fr;
+  }
+}
