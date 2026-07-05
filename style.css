@@ -489,10 +489,19 @@ gap:12px;
 .hero-grid{
 grid-template-columns:1fr;
 text-align:left;
+gap:40px;
 }
 
+.metric-one{top:20px;right:-10px}
+.metric-two{bottom:105px;left:-25px}
+.metric-three{bottom:25px;right:20px}
+
 .portrait{
-display:none;
+display:block;
+width:min(360px,75vw);
+height:min(360px,75vw);
+transform:none;
+margin:60px auto 0;
 }
 
 h1{
