@@ -149,6 +149,15 @@ margin-bottom:38px;
 
 .hero-line{
     display:block;
+    color:#ffffff;
+}
+
+.hero-muted{
+    color:#565656;
+}
+
+.hero-accent{
+    color:#c9a227;
 }
 
 .hero-muted{
