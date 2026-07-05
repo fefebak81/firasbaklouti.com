@@ -666,3 +666,40 @@ animation-delay:2.1s;
 0%,100%{translate:0 0}
 50%{translate:0 -10px}
 }
+
+
+.navbar{
+
+transition:
+padding .35s ease,
+background .35s ease,
+box-shadow .35s ease;
+
+}
+
+.button{
+
+transition:
+transform .35s ease,
+box-shadow .35s ease,
+background .35s ease;
+
+}
+
+.button:hover{
+
+transform:translateY(-3px) scale(1.03);
+
+}
+
+.case-study{
+
+transition:.45s ease;
+
+}
+
+.case-study:hover{
+
+transform:translateX(10px);
+
+}
