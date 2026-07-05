@@ -42,13 +42,32 @@ z-index:100;
 }
 
 .logo{
-color:#c9a227;
-text-decoration:none;
-font-weight:800;
-letter-spacing:2px;
-border:1px solid rgba(201,162,39,.35);
-padding:8px 11px;
+display:flex;
+align-items:center;
+justify-content:center;
+
+width:64px;
+height:64px;
+flex-shrink:0;
+
 border-radius:50%;
+border:1.5px solid rgba(214,170,42,.45);
+
+background:rgba(255,255,255,.02);
+
+color:var(--gold);
+font-size:2rem;
+font-weight:800;
+letter-spacing:.03em;
+text-decoration:none;
+
+transition:all .35s ease;
+}
+
+.logo:hover{
+transform:scale(1.05);
+background:rgba(214,170,42,.08);
+box-shadow:0 0 30px rgba(214,170,42,.18);
 }
 
 .nav-links{display:flex;gap:24px}
