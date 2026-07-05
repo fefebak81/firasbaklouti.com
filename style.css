@@ -41,48 +41,7 @@ border-radius:999px;
 z-index:100;
 }
 
-.logo{
-display:flex;
-align-items:center;
-justify-content:center;
-gap:2px;
 
-width:64px;
-height:64px;
-
-border-radius:50%;
-
-border:1.5px solid rgba(214,170,42,.45);
-
-background:rgba(255,255,255,.02);
-
-text-decoration:none;
-
-transition:.35s;
-}
-
-.logo span{
-font-size:1.5rem;
-font-weight:800;
-color:var(--gold);
-line-height:1;
-letter-spacing:-1px;
-}
-
-.logo span:first-child{
-transform:translateY(-2px);
-}
-
-.logo span:last-child{
-transform:translateY(2px);
-opacity:.9;
-}
-
-.logo:hover{
-transform:scale(1.05);
-background:rgba(214,170,42,.08);
-box-shadow:0 0 30px rgba(214,170,42,.18);
-}
 
 .nav-links{display:flex;gap:24px}
 
