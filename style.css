@@ -23,9 +23,72 @@ h1 span{color:#c9a227}
 .secondary{border:1px solid #333;color:#fff}
 .secondary:hover{border-color:#c9a227;background:#111}
 
-.portrait{width:min(340px,75vw);height:min(340px,75vw);border-radius:50%;margin:auto;padding:2px;background:linear-gradient(135deg,#c9a227,#fff2,#c9a227);box-shadow:0 0 90px rgba(201,162,39,.28)}
-.portrait-inner{width:100%;height:100%;border-radius:50%;background:radial-gradient(circle at top,rgba(201,162,39,.25),transparent 35%),#111;display:flex;align-items:center;justify-content:center;font-size:5rem;font-weight:800;color:#c9a227}
+.portrait{
+position:relative;
+width:min(380px,75vw);
+height:min(380px,75vw);
+border-radius:50%;
+margin:auto;
+padding:2px;
+background:linear-gradient(135deg,#c9a227,#ffffff22,#c9a227);
+box-shadow:0 0 120px rgba(201,162,39,.32);
+}
 
+.portrait:before{
+content:"";
+position:absolute;
+inset:-45px;
+border-radius:50%;
+background:radial-gradient(circle,rgba(201,162,39,.18),transparent 65%);
+z-index:-1;
+animation:pulseGlow 6s ease-in-out infinite;
+}
+
+.portrait-inner{
+width:100%;
+height:100%;
+border-radius:50%;
+background:
+radial-gradient(circle at top,rgba(201,162,39,.22),transparent 35%),
+#101010;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:5.6rem;
+font-weight:800;
+color:#c9a227;
+}
+
+.metric{
+position:absolute;
+background:rgba(12,12,12,.82);
+border:1px solid rgba(201,162,39,.35);
+backdrop-filter:blur(14px);
+border-radius:18px;
+padding:14px 18px;
+box-shadow:0 18px 50px rgba(201,162,39,.18);
+}
+
+.metric strong{
+display:block;
+font-size:1.5rem;
+color:#c9a227;
+line-height:1;
+}
+
+.metric small{
+font-size:.72rem;
+color:#aaa;
+}
+
+.metric-one{top:20px;right:-25px;}
+.metric-two{bottom:55px;left:-35px;}
+.metric-three{bottom:-15px;right:45px;}
+
+@keyframes pulseGlow{
+0%,100%{opacity:.55;transform:scale(.96);}
+50%{opacity:1;transform:scale(1.05);}
+}
 .section{padding:110px 0}
 .section h2{font-size:clamp(2.4rem,5vw,4.2rem);text-align:center;margin-bottom:58px;letter-spacing:-2px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:24px}
