@@ -169,6 +169,14 @@ box-shadow:0 0 28px rgba(201,162,39,.10);
 transform:translateX(10px);
 }
 
+.portrait{
+transition:transform .35s ease, box-shadow .35s ease;
+}
+
+.portrait:hover{
+transform:translateX(10px) scale(1.02);
+box-shadow:0 0 45px rgba(201,162,39,.25);
+}
 .portrait:before{
 content:"";
 position:absolute;
@@ -208,6 +216,7 @@ backdrop-filter:blur(14px);
 border-radius:18px;
 padding:14px 18px;
 box-shadow:0 16px 38px rgba(201,162,39,.12);
+  animation:floatMetric 1.8s ease-in-out infinite;
 }
 
 .metric strong{
@@ -681,8 +690,15 @@ animation-delay:2.1s;
 }
 
 @keyframes floatMetric{
-0%,100%{translate:0 0}
-50%{translate:0 -10px}
+0%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-12px);
+}
+100%{
+transform:translateY(0);
+}
 }
 
 
