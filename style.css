@@ -651,7 +651,7 @@ margin-top:10px;
 }
 
 .reveal{
-opacity:0;
+opacity:22;
 transform:translateY(28px);
 transition:opacity .8s ease, transform .8s ease;
 }
