@@ -631,3 +631,38 @@ margin-top:10px;
     grid-template-columns:1fr;
   }
 }
+
+.reveal{
+opacity:0;
+transform:translateY(28px);
+transition:opacity .8s ease, transform .8s ease;
+}
+
+.reveal.visible{
+opacity:1;
+transform:translateY(0);
+}
+
+.card,
+.case-study,
+.method-step,
+.contact-form{
+will-change:transform,opacity;
+}
+
+.metric{
+animation:floatMetric 6s ease-in-out infinite;
+}
+
+.metric-two{
+animation-delay:1.2s;
+}
+
+.metric-three{
+animation-delay:2.1s;
+}
+
+@keyframes floatMetric{
+0%,100%{translate:0 0}
+50%{translate:0 -10px}
+}
