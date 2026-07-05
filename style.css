@@ -141,7 +141,23 @@ font-size:1.12rem;
 color:#b8b8b8;
 margin-bottom:38px;
 }
+.hero-title{
+    display:flex;
+    flex-direction:column;
+    line-height:.9;
+}
 
+.hero-line{
+    display:block;
+}
+
+.hero-muted{
+    color:#555;
+}
+
+.hero-accent{
+    color:#c9a227;
+}
 .hero-buttons{
 display:flex;
 gap:18px;
