@@ -211,14 +211,7 @@ padding-left:20px;
 max-width:500px;
 }
 
-.hero-regions{
-margin-top:28px;
-text-align:center;
-font-size:.82rem;
-letter-spacing:3px;
-text-transform:uppercase;
-color:#8d8d8d;
-}
+
 
 /* PORTRAIT */
 .portrait{
@@ -461,11 +454,13 @@ transition:.45s ease;
 
 .case-study:hover{transform:translateX(10px)}
 
+
 .case-number{
-.case-number{
-    font-size:4rem;
-    opacity:.18;
-    font-weight:700;
+font-size:4rem;
+font-weight:700;
+color:#c9a227;
+opacity:.18;
+line-height:1;
 }
 
 .case-content h3{
