@@ -462,11 +462,10 @@ transition:.45s ease;
 .case-study:hover{transform:translateX(10px)}
 
 .case-number{
-font-size:5.5rem;
-font-weight:800;
-color:#c9a227;
-opacity:.32;
-line-height:1;
+.case-number{
+    font-size:4rem;
+    opacity:.18;
+    font-weight:700;
 }
 
 .case-content h3{
