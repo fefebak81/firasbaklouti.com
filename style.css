@@ -125,7 +125,7 @@ font-size:.82rem;
 }
 
 h1{
-font-size:clamp(3.2rem,7vw,6.3rem);
+font-size:clamp(3rem,6.5vw,6rem);
 max-width:720px;
 line-height:.95;
 font-weight:800;
