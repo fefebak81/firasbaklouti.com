@@ -211,6 +211,15 @@ padding-left:20px;
 max-width:500px;
 }
 
+.hero-regions{
+margin-top:28px;
+text-align:center;
+font-size:.82rem;
+letter-spacing:3px;
+text-transform:uppercase;
+color:#8d8d8d;
+}
+
 /* PORTRAIT */
 .portrait{
 position:relative;
