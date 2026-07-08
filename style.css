@@ -828,3 +828,21 @@ color:#999;
 body.menu-open{
   overflow:hidden;
 }
+
+@media(max-width:768px){
+  .nav-links{
+    pointer-events:none;
+  }
+
+  .nav-links.active{
+    pointer-events:auto;
+  }
+
+  .navbar{
+    width:94%;
+  }
+
+  .brand-text strong{
+    white-space:nowrap;
+  }
+}
