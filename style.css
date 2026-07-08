@@ -824,3 +824,7 @@ color:#999;
     background:#c9a227;
   }
 }
+
+body.menu-open{
+  overflow:hidden;
+}
