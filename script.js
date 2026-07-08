@@ -50,3 +50,17 @@ document.querySelectorAll(".nav-links a").forEach(link => {
         navLinks.classList.remove("active");
     });
 });
+
+// Close menu when clicking outside
+document.addEventListener("click", (e) => {
+
+    if (
+        navLinks.classList.contains("active") &&
+        !navLinks.contains(e.target) &&
+        !menuToggle.contains(e.target)
+    ) {
+        navLinks.classList.remove("active");
+        menuToggle.classList.remove("open");
+    }
+
+});
