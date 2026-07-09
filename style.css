@@ -848,12 +848,13 @@ body.menu-open{
 }
 
 .linkedin-button{
-  background:#0A66C2;
-  color:#fff;
-  border:1px solid #0A66C2;
+  background:#fff;
+  color:#080808;
+  border:1px solid rgba(255,255,255,.8);
 }
 
 .linkedin-button:hover{
-  background:#084f96;
-  box-shadow:0 18px 45px rgba(10,102,194,.28);
+  background:#e8e8e8;
+  color:#080808;
+  box-shadow:0 18px 45px rgba(255,255,255,.12);
 }
