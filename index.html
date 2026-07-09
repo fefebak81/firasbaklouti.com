@@ -1,341 +1,56 @@
-:root{
-  --bg:#0b0b0c;
-  --panel:#141518;
-  --text:#f1eee8;
-  --muted:#a9abb2;
-  --quiet:#747780;
-  --line:rgba(255,255,255,.11);
-  --bronze:#b88a3b;
-  --bronze-soft:#d2aa68;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RC2FQYKFK1"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RC2FQYKFK1');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firas Baklouti</title>
+  <meta name="description" content="Firas Baklouti writes about leadership, execution, growth, complexity and international business experience.">
+  <link rel="canonical" href="https://firasbaklouti.com/">
+  <meta property="og:title" content="Firas Baklouti">
+  <meta property="og:description" content="Every business reaches a moment when experience matters.">
+  <meta property="og:image" content="https://firasbaklouti.com/firas.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="firas.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a href="index.html" class="brand"><img src="firas.png" alt="Firas Baklouti"><strong>Firas Baklouti</strong></a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="nav-links">
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="perspectives.html">Perspectives</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{
-  font-family:Inter,Arial,sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.65;
-}
-a{text-decoration:none;color:inherit}
-img{max-width:100%;display:block}
+<main>
+  <section class="home">
+    <div class="container home-grid">
+      <div class="home-image"><img src="firas.png" alt="Firas Baklouti"></div>
+      <div class="home-copy">
+        <p class="eyebrow">Firas Baklouti</p>
+        <h1>Every business reaches a moment when experience matters.</h1>
+        <div class="home-text">
+          <p>I have spent more than two decades working where businesses become more complex than expected.</p>
+          <p>Growth slows. Priorities compete. Leadership faces difficult decisions.</p>
+          <p>Those moments have shaped my career.</p>
+        </div>
+        <p class="home-thought">Momentum is not lost in one decision. It is lost in hundreds of small ones nobody challenges.</p>
+        <a class="button ghost" href="https://www.linkedin.com/in/firasbaklouti" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
 
-.container{
-  width:min(1120px,calc(100% - 40px));
-  margin:auto;
-}
-
-.site-header{
-  position:sticky;
-  top:0;
-  z-index:100;
-  height:76px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:0 max(20px,calc((100vw - 1120px)/2));
-  background:rgba(11,11,12,.86);
-  backdrop-filter:blur(18px);
-  border-bottom:1px solid var(--line);
-}
-
-.brand{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  font-weight:700;
-}
-.brand img{
-  width:42px;
-  height:42px;
-  border-radius:50%;
-  object-fit:cover;
-  border:1px solid rgba(184,138,59,.45);
-}
-
-.nav-links{
-  display:flex;
-  gap:30px;
-}
-.nav-links a{
-  color:var(--muted);
-  font-size:14px;
-  font-weight:500;
-}
-.nav-links a:hover{color:var(--text)}
-
-.menu-toggle{
-  display:none;
-  width:46px;
-  height:46px;
-  border:1px solid var(--line);
-  border-radius:14px;
-  background:transparent;
-}
-.menu-toggle span{
-  display:block;
-  width:20px;
-  height:2px;
-  background:var(--text);
-  margin:5px auto;
-}
-
-h1,h2,h3{
-  font-family:Manrope,Inter,Arial,sans-serif;
-  letter-spacing:-.045em;
-  line-height:1.04;
-}
-h1{font-size:clamp(46px,6vw,82px)}
-h2{font-size:clamp(34px,4vw,58px)}
-h3{font-size:24px}
-
-p{
-  color:var(--muted);
-  font-size:18px;
-}
-
-.eyebrow{
-  color:var(--bronze-soft);
-  text-transform:uppercase;
-  letter-spacing:2.4px;
-  font-size:12px;
-  font-weight:800;
-  margin-bottom:22px;
-}
-
-.button{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-height:50px;
-  padding:13px 22px;
-  border-radius:999px;
-  font-weight:700;
-  transition:.22s ease;
-}
-.button.ghost{
-  border:1px solid rgba(184,138,59,.5);
-  color:var(--text);
-}
-.button.primary{
-  background:var(--bronze);
-  color:#090909;
-  border:none;
-}
-.button:hover{transform:translateY(-2px)}
-
-.home{
-  min-height:calc(100vh - 76px);
-  display:flex;
-  align-items:center;
-  padding:70px 0;
-}
-.home-grid{
-  display:grid;
-  grid-template-columns:.9fr 1.1fr;
-  gap:72px;
-  align-items:center;
-}
-.home-image{
-  border-radius:34px;
-  overflow:hidden;
-  border:1px solid rgba(184,138,59,.25);
-  background:var(--panel);
-}
-.home-copy h1{margin-bottom:30px}
-.home-text p{margin-bottom:14px;max-width:680px}
-.home-thought{
-  margin:32px 0;
-  max-width:680px;
-  color:var(--text);
-  font-family:Manrope,Inter,Arial,sans-serif;
-  font-size:clamp(23px,2.5vw,34px);
-  line-height:1.18;
-  letter-spacing:-.04em;
-}
-
-.page-hero{
-  padding:110px 0 56px;
-}
-.page-hero .container{max-width:940px}
-.page-hero p{
-  max-width:740px;
-  font-size:21px;
-  margin-top:22px;
-}
-
-.page-section{
-  padding:70px 0;
-  border-top:1px solid rgba(255,255,255,.055);
-}
-
-.two-column{
-  display:grid;
-  grid-template-columns:.82fr 1.18fr;
-  gap:64px;
-  align-items:start;
-}
-.portrait-small{
-  max-width:430px;
-  border-radius:30px;
-  overflow:hidden;
-  border:1px solid rgba(184,138,59,.25);
-}
-
-.prose p{margin-bottom:22px}
-.prose .lead{
-  font-size:24px;
-  color:var(--text);
-}
-
-.large-thought{
-  max-width:880px;
-}
-.large-thought p{
-  color:var(--text);
-  font-family:Manrope,Inter,Arial,sans-serif;
-  font-size:clamp(34px,4.5vw,62px);
-  line-height:1.08;
-  letter-spacing:-.05em;
-}
-
-.grid{
-  display:grid;
-  gap:22px;
-}
-.grid.two{grid-template-columns:repeat(2,1fr)}
-.card{
-  padding:30px;
-  border:1px solid var(--line);
-  border-radius:26px;
-  background:rgba(255,255,255,.035);
-}
-.card span{
-  display:block;
-  color:var(--bronze-soft);
-  font-size:13px;
-  font-weight:800;
-  letter-spacing:2px;
-  margin-bottom:16px;
-}
-.card p{font-size:16px}
-
-.article-list{
-  max-width:960px;
-}
-.article{
-  padding:38px 0;
-  border-bottom:1px solid var(--line);
-}
-.article span{
-  color:var(--bronze-soft);
-  font-size:13px;
-  font-weight:800;
-  text-transform:uppercase;
-  letter-spacing:1.5px;
-}
-.article h2{
-  margin:12px 0 16px;
-  font-size:clamp(31px,3.5vw,50px);
-}
-.article a{
-  display:inline-block;
-  margin-top:18px;
-  color:var(--bronze-soft);
-  font-weight:700;
-}
-
-.contact-layout{
-  display:grid;
-  grid-template-columns:.9fr 1.1fr;
-  gap:64px;
-}
-.contact-form{
-  display:grid;
-  gap:16px;
-}
-.contact-form input,
-.contact-form select,
-.contact-form textarea{
-  width:100%;
-  background:rgba(255,255,255,.04);
-  border:1px solid var(--line);
-  color:var(--text);
-  padding:16px;
-  border-radius:15px;
-  font:inherit;
-}
-.contact-form textarea{resize:vertical}
-.contact-form button{
-  width:fit-content;
-  cursor:pointer;
-}
-
-.footer{
-  border-top:1px solid var(--line);
-  padding:26px 0;
-  text-align:center;
-}
-.footer p{
-  font-size:14px;
-  color:var(--quiet);
-}
-
-.reveal{
-  opacity:0;
-  transform:translateY(18px);
-  transition:.7s ease;
-}
-.reveal.visible{
-  opacity:1;
-  transform:none;
-}
-
-@media(max-width:900px){
-  .menu-toggle{display:block}
-  .nav-links{
-    display:none;
-    position:fixed;
-    top:76px;
-    left:20px;
-    right:20px;
-    flex-direction:column;
-    padding:18px;
-    border:1px solid var(--line);
-    border-radius:20px;
-    background:#111214;
-  }
-  .nav-links.active{display:flex}
-  .nav-links a{
-    padding:13px 4px;
-    font-size:18px;
-  }
-
-  .home-grid,
-  .two-column,
-  .grid.two,
-  .contact-layout{
-    grid-template-columns:1fr;
-  }
-
-  .home{
-    padding:44px 0 70px;
-  }
-  .home-image{
-    max-width:390px;
-    margin:auto;
-    order:1;
-  }
-  .home-copy{order:2}
-  .home-grid{gap:40px}
-
-  .page-hero{padding:80px 0 42px}
-  .page-section{padding:58px 0}
-}
-
-@media(max-width:540px){
-  .container{width:calc(100% - 34px)}
-  .brand img{width:38px;height:38px}
-  h1{font-size:42px}
-  h2{font-size:34px}
-}
+<footer class="footer"><p>© 2026 Firas Baklouti</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
