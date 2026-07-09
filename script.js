@@ -5,6 +5,7 @@ if (menuToggle && navLinks) {
   menuToggle.addEventListener("click", () => {
     const open = navLinks.classList.toggle("active");
     menuToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
   });
 }
 
@@ -12,6 +13,7 @@ document.querySelectorAll(".nav-links a").forEach(link => {
   link.addEventListener("click", () => {
     navLinks?.classList.remove("active");
     menuToggle?.setAttribute("aria-expanded", "false");
+    menuToggle?.setAttribute("aria-label", "Open menu");
   });
 });
 
