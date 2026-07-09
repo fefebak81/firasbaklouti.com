@@ -339,3 +339,45 @@ p{
   h1{font-size:42px}
   h2{font-size:34px}
 }
+
+/* Final fixes */
+
+.portrait-small {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid rgba(184,138,59,.25);
+}
+
+.portrait-small img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.prose p {
+  font-size: 19px;
+  line-height: 1.75;
+  color: #b8bbc2;
+}
+
+.prose .lead {
+  font-size: 25px;
+  line-height: 1.35;
+  color: #f1eee8;
+  font-weight: 600;
+}
+
+@media(max-width:900px){
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .portrait-small {
+    max-width: 360px;
+  }
+}
