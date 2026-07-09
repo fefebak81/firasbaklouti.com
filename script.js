@@ -3,22 +3,24 @@ const navLinks = document.querySelector(".nav-links");
 
 if (menuToggle && navLinks) {
   menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-    const isOpen = navLinks.classList.contains("active");
+    const isOpen = navLinks.classList.toggle("active");
+
+    menuToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     menuToggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
-    menuToggle.textContent = isOpen ? "×" : "☰";
   });
 
   navLinks.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       navLinks.classList.remove("active");
+      menuToggle.setAttribute("aria-expanded", "false");
       menuToggle.setAttribute("aria-label", "Open menu");
-      menuToggle.textContent = "☰";
     });
   });
 }
 
-const revealElements = document.querySelectorAll(".reveal");
+const revealItems = document.querySelectorAll(
+  ".hero-copy, .hero-portrait, .section, .page-hero, .page-layout, .card, .article-card"
+);
 
 const revealObserver = new IntersectionObserver(
   (entries) => {
@@ -28,7 +30,12 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.12 }
+  {
+    threshold: 0.12
+  }
 );
 
-revealElements.forEach((element) => revealObserver.observe(element));
+revealItems.forEach((item) => {
+  item.classList.add("reveal");
+  revealObserver.observe(item);
+});
