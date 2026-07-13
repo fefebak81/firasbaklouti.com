@@ -29,3 +29,30 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .article-card{padding:34px 0;border-bottom:1px solid var(--line)}
 .article-card h2{font-size:clamp(28px,3vw,44px);margin:10px 0 14px}
 .article-card a{color:var(--bronze-soft);font-weight:700}
+
+/* FIRASOS TIMELINE VISIBLE UPGRADE */
+.archive-document{padding:34px 0;border-bottom:1px solid var(--line)}
+.archive-document:last-child{border-bottom:0}
+.archive-document h1{font-size:clamp(34px,4vw,56px);margin-bottom:24px}
+.archive-document h2{font-size:clamp(25px,3vw,38px);margin:42px 0 18px}
+.archive-document h3{font-size:24px;margin:30px 0 14px}
+.archive-document ul,.archive-document ol{margin:0 0 26px 28px;color:var(--muted)}
+.archive-document li{margin:8px 0;font-size:18px}
+.article-card{padding:34px 0;border-bottom:1px solid var(--line)}
+.article-card h2{font-size:clamp(28px,3vw,44px);margin:10px 0 14px}
+.article-card a{color:var(--bronze-soft);font-weight:700}
+.timeline-hero{padding:46px 0 54px;border-bottom:1px solid var(--line)}
+.timeline-hero h1{font-size:clamp(46px,7vw,84px);line-height:1.02;max-width:900px;margin:12px 0 22px}
+.timeline-hero blockquote{margin:32px 0 0;padding:18px 24px;border-left:2px solid var(--bronze-soft);font-size:clamp(20px,2.4vw,30px);color:var(--text)}
+.timeline-list{position:relative;padding:54px 0 10px}
+.timeline-list:before{content:"";position:absolute;left:116px;top:58px;bottom:30px;width:1px;background:linear-gradient(var(--bronze-soft),var(--line))}
+.timeline-item{display:grid;grid-template-columns:88px minmax(0,1fr);gap:56px;position:relative;padding:0 0 54px}
+.timeline-item:before{content:"";position:absolute;left:110px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--bronze-soft);box-shadow:0 0 0 7px rgba(180,135,85,.12)}
+.timeline-date{font-size:16px;font-weight:800;letter-spacing:.04em;color:var(--bronze-soft);text-align:right;padding-top:4px}
+.timeline-content{background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012));border:1px solid var(--line);border-radius:22px;padding:28px 30px}
+.timeline-content h2{font-size:clamp(25px,3vw,38px);margin:4px 0 12px}
+.timeline-content p{margin:0 0 12px}
+.timeline-category{font-size:12px!important;text-transform:uppercase;letter-spacing:.16em;color:var(--bronze-soft)!important;font-weight:800}
+.timeline-location{font-size:14px!important;color:var(--muted)!important}
+.timeline-link{display:inline-block;margin-top:8px;color:var(--bronze-soft);font-weight:700}
+@media(max-width:700px){.timeline-list:before{left:7px}.timeline-item{grid-template-columns:1fr;gap:12px;padding-left:30px}.timeline-item:before{left:1px;top:7px}.timeline-date{text-align:left}.timeline-content{padding:22px}.timeline-hero{padding-top:28px}}
