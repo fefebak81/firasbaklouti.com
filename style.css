@@ -15,3 +15,17 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .footer{border-top:1px solid var(--line);padding:26px 0;text-align:center}.footer p{font-size:14px;color:var(--quiet)}.reveal{opacity:0;transform:translateY(18px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}
 @media(max-width:900px){.menu-toggle{display:block}.nav-links{display:none;position:fixed;top:76px;left:20px;right:20px;flex-direction:column;padding:18px;border:1px solid var(--line);border-radius:20px;background:#111214;box-shadow:0 22px 80px rgba(0,0,0,.5)}.nav-links.active{display:flex}.nav-links a{padding:13px 4px;font-size:18px}.home-grid,.two-column{grid-template-columns:1fr}.home{padding:44px 0 70px}.home-image{max-width:390px;margin:auto;order:1}.home-copy{order:2}.home-grid{gap:40px}.portrait-small{max-width:360px}.page-hero{padding:80px 0 42px}.page-section{padding:58px 0}.article-page{padding:80px 0}}
 @media(max-width:540px){.container{width:calc(100% - 34px)}.brand img{width:38px;height:38px}.brand strong{font-size:15px}h1{font-size:42px}h2{font-size:34px}.eyebrow{font-size:11px;letter-spacing:2px}}
+
+/* FIRASOS GENERATED CONTENT */
+.archive-document{padding:34px 0;border-bottom:1px solid var(--line)}
+.archive-document:last-child{border-bottom:0}
+.archive-document h1{font-size:clamp(34px,4vw,56px);margin-bottom:24px}
+.archive-document h2{font-size:clamp(25px,3vw,38px);margin:42px 0 18px}
+.archive-document h3{font-size:24px;margin:30px 0 14px}
+.archive-document ul,.archive-document ol{margin:0 0 26px 28px;color:var(--muted)}
+.archive-document li{margin:8px 0;font-size:18px}
+.archive-document code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.archive-document pre{overflow:auto;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--panel);margin:22px 0}
+.article-card{padding:34px 0;border-bottom:1px solid var(--line)}
+.article-card h2{font-size:clamp(28px,3vw,44px);margin:10px 0 14px}
+.article-card a{color:var(--bronze-soft);font-weight:700}
