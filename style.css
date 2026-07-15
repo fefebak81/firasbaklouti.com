@@ -57,7 +57,6 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .timeline-link{display:inline-block;margin-top:8px;color:var(--bronze-soft);font-weight:700}
 @media(max-width:700px){.timeline-list:before{left:7px}.timeline-item{grid-template-columns:1fr;gap:12px;padding-left:30px}.timeline-item:before{left:1px;top:7px}.timeline-date{text-align:left}.timeline-content{padding:22px}.timeline-hero{padding-top:28px}}
 
-
 /* FIRASOS CAREER TIMELINE V3 */
 .career-container{max-width:1060px;margin:0 auto;padding-left:28px;padding-right:28px}
 .career-hero{padding:86px 0 58px;background:radial-gradient(circle at 85% 10%,rgba(184,137,73,.10),transparent 28%)}
