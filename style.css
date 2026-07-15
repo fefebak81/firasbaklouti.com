@@ -82,3 +82,27 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .career-date{grid-column:3;text-align:left;padding:0 0 10px;font-size:14px}
 .career-dot{grid-column:2;grid-row:1/3;margin-top:4px}
 .career-card{grid-column:3;padding:24px}}
+
+/* FIRASOS TIMELINE MODULE V4 */
+/* FIRASOS TIMELINE MODULE V4 */
+.journey-container{max-width:1120px;margin:0 auto;padding-left:28px;padding-right:28px}
+.journey-hero{padding:110px 0 80px;background:radial-gradient(circle at 90% 12%,rgba(184,137,73,.09),transparent 30%)}
+.journey-label{margin:0 0 34px;color:var(--bronze-soft);font-size:13px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+.journey-hero h1{max-width:940px;margin:0 0 30px;font-size:clamp(58px,8vw,104px);line-height:.94;letter-spacing:-.06em}
+.journey-intro{max-width:850px;margin:0;color:var(--muted);font-size:clamp(20px,2.2vw,28px);line-height:1.5}
+.journey-hero blockquote{max-width:850px;margin:46px 0 0;padding:18px 0 18px 28px;border-left:2px solid var(--bronze-soft);font-size:clamp(20px,2.1vw,27px);line-height:1.45}
+.journey-body{padding:10px 0 110px}
+.journey-stage{display:grid;grid-template-columns:80px 330px minmax(0,1fr);gap:38px;padding:56px 0;border-top:1px solid var(--line)}
+.journey-stage-index{padding-top:4px;color:var(--bronze-soft);font-size:14px;font-weight:800;letter-spacing:.16em}
+.journey-stage-heading>p{margin:0 0 14px;color:var(--bronze-soft);font-size:13px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.journey-stage-heading h2{margin:0 0 18px;font-size:clamp(30px,3.5vw,48px);line-height:1.02;letter-spacing:-.04em}
+.journey-stage-heading>div{color:var(--muted);font-size:17px;line-height:1.6}
+.journey-stage-items{display:grid;gap:18px}
+.journey-item{display:grid;grid-template-columns:120px minmax(0,1fr);gap:24px;padding:26px 28px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.025),rgba(255,255,255,.008))}
+.journey-date{padding-top:3px;color:var(--bronze-soft);font-weight:800;line-height:1.4}
+.journey-content h3{margin:0 0 10px;font-size:clamp(24px,2.5vw,34px);line-height:1.08;letter-spacing:-.03em}
+.journey-content p{margin:0 0 14px;color:var(--muted);font-size:17px;line-height:1.65}
+.journey-content span{font-size:13px;color:var(--text)}
+.journey-note{margin:50px 0 0;padding-top:28px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+@media(max-width:900px){.journey-stage{grid-template-columns:52px minmax(0,1fr)}.journey-stage-heading,.journey-stage-items{grid-column:2}}
+@media(max-width:650px){.journey-hero{padding:70px 0 55px}.journey-hero h1{font-size:54px}.journey-stage{grid-template-columns:1fr;gap:18px;padding:42px 0}.journey-stage-index,.journey-stage-heading,.journey-stage-items{grid-column:1}.journey-item{grid-template-columns:1fr;gap:10px;padding:24px}}
