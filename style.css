@@ -107,7 +107,6 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 @media(max-width:900px){.journey-stage{grid-template-columns:52px minmax(0,1fr)}.journey-stage-heading,.journey-stage-items{grid-column:2}}
 @media(max-width:650px){.journey-hero{padding:70px 0 55px}.journey-hero h1{font-size:54px}.journey-stage{grid-template-columns:1fr;gap:18px;padding:42px 0}.journey-stage-index,.journey-stage-heading,.journey-stage-items{grid-column:1}.journey-item{grid-template-columns:1fr;gap:10px;padding:24px}}
 
-
 /* FIRASOS CLEAN MASTER */
 .journey-container{max-width:1120px;margin:0 auto;padding:0 28px}
 .journey-hero{padding:100px 0 72px;background:radial-gradient(circle at 90% 12%,rgba(184,137,73,.09),transparent 30%)}
