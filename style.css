@@ -128,3 +128,23 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .journey-content span{font-size:13px;color:var(--text)}
 @media(max-width:900px){.journey-stage{grid-template-columns:52px minmax(0,1fr)}.journey-stage-heading,.journey-stage-items{grid-column:2}}
 @media(max-width:650px){.journey-hero{padding:68px 0 52px}.journey-hero h1{font-size:54px}.journey-stage{grid-template-columns:1fr;gap:18px}.journey-stage-index,.journey-stage-heading,.journey-stage-items{grid-column:1}.journey-item{grid-template-columns:1fr;gap:10px;padding:24px}}
+
+
+/* FIRASOS PUBLIC EVENTS GALLERY */
+.events-container{max-width:1240px;margin:0 auto;padding:0 28px}
+.events-hero{padding:100px 0 68px;background:radial-gradient(circle at 88% 10%,rgba(184,137,73,.10),transparent 30%)}
+.events-label{margin:0 0 30px;color:var(--bronze-soft);font-size:13px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+.events-hero h1{max-width:1000px;margin:0 0 26px;font-size:clamp(52px,7vw,92px);line-height:.96;letter-spacing:-.055em}
+.events-hero p:last-child{max-width:840px;color:var(--muted);font-size:clamp(19px,2vw,26px);line-height:1.55}
+.events-gallery{padding:20px 0 110px}
+.events-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.event-card{overflow:hidden;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.018)}
+.event-image-link{display:block;background:#e9e6df;aspect-ratio:4/5;overflow:hidden}
+.event-card img{width:100%;height:100%;display:block;object-fit:contain;padding:14px;transition:transform .25s ease}
+.event-card:hover img{transform:scale(1.018)}
+.event-card-copy{padding:24px}
+.event-meta{display:flex;justify-content:space-between;gap:12px;margin-bottom:16px;color:var(--bronze-soft);font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.event-card h2{margin:0 0 10px;font-size:27px;line-height:1.08;letter-spacing:-.03em}
+.event-card p{margin:0;color:var(--muted);font-size:15px;line-height:1.55}
+@media(max-width:980px){.events-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.events-hero{padding:68px 0 48px}.events-hero h1{font-size:48px}.events-grid{grid-template-columns:1fr}.event-image-link{aspect-ratio:1/1.15}}
