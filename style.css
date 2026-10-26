@@ -213,3 +213,22 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
   .journey-body .journey-content p {font-size:15px;line-height:1.65}
   .journey-body .journey-photo-evidence {width:100%;min-width:0}
 }
+
+/* 2026-10 mobile audit: chronology must stack at tablet and narrow desktop viewport widths */
+@media(max-width:1200px){
+ .journey-body .journey-stage{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:16px!important;padding:34px 0!important}
+ .journey-body .journey-stage-index,.journey-body .journey-stage-heading,.journey-body .journey-stage-items{grid-column:1/-1!important;min-width:0!important;width:100%!important}
+ .journey-body .journey-stage-items{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}
+ .journey-body .journey-item{display:block!important;min-width:0!important;padding:20px!important}
+ .journey-body .journey-date{display:block!important;width:auto!important;margin-bottom:10px!important}
+ .journey-body .journey-content{width:100%!important;min-width:0!important}
+}
+@media(max-width:900px){
+ .journey-body .journey-stage-items{grid-template-columns:minmax(0,1fr)!important}
+ .events-grid{grid-template-columns:minmax(0,1fr)!important}
+ .events-grid .event-card{min-height:0!important}
+}
+/* Event archive: compact evidence-only cards, no redundant placeholder headings */
+.events-grid .event-evidence-card .event-evidence-head{display:none!important}
+.events-grid .event-evidence-card{min-height:0!important}
+.events-grid .event-evidence-card .event-card-copy{padding:24px!important}
