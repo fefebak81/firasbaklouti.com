@@ -183,3 +183,17 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 @media(max-width:900px){.executive-section{padding:66px 0}.executive-cards{grid-template-columns:1fr}.executive-card{padding:25px}.executive-stripes article{grid-template-columns:1fr;gap:5px}.executive-hero .home-image{order:2}.executive-hero .home-copy{order:1}.executive-hero .home-grid{gap:26px}.executive-hero{padding-top:36px}}
 @media(max-width:540px){.executive-hero .home-copy h1{font-size:38px}.executive-actions .button{width:100%}.executive-section{padding:56px 0}.executive-section .section-intro{font-size:17px}.region-row span{font-size:14px;padding:10px 16px}}
 @media(prefers-reduced-motion:reduce){.executive-section,.executive-hero{transition:none!important;animation:none!important}}
+
+
+/* Executive archive: restrained event cards and evidence imagery */
+.events-grid .event-card{background:#151619;border:1px solid rgba(255,255,255,.09);border-radius:12px;box-shadow:none;transition:border-color .2s ease,transform .2s ease;text-align:left}
+.events-grid .event-card:hover{border-color:rgba(210,170,104,.42);transform:translateY(-2px)}
+.events-grid .event-logo-wrap{background:#e9e7e2;aspect-ratio:16/9;padding:26px;border-radius:0}
+.events-grid .event-logo-wrap img{object-fit:contain;max-width:100%;max-height:100%;filter:none}
+.events-grid .event-card-copy{padding:20px 22px 23px}
+.events-grid .event-meta{font-size:11px;font-weight:600;letter-spacing:.04em;color:#a9a9a9;text-transform:none;margin-bottom:12px}
+.events-grid .event-card strong{font-size:21px;letter-spacing:-.025em;line-height:1.25;margin-bottom:8px}
+.events-grid .event-role{font-size:14px;line-height:1.5}
+.events-grid .event-count{font-size:11px;letter-spacing:0;text-transform:none;font-weight:500;color:#999;margin-top:14px}
+.contact-form label{display:grid;gap:8px;color:var(--text);font-size:14px;font-weight:600}
+.contact-intro{margin-bottom:25px;font-size:16px}
