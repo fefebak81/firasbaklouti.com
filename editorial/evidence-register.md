@@ -8,14 +8,16 @@ Updated: 2026-10-26. Internal editorial working file. Not a public biography or 
 |---|---|---|---|
 | Executive office portrait | images/01-office-desk-portrait.jpg | About | Stored |
 | Dubai portrait | images/02-dubai-city-portrait.jpg | Portrait option | Stored |
-| Industry presentation | images/03-speaking-presentation-01.jpg | Events, leadership | Stored; event date to confirm |
-| Speaking on stage | images/04-speaking-keynote-smile.jpg | Events, leadership | Stored; event date to confirm |
-| Award / recognition | images/05-award-recognition.jpg | Events, recognition | Stored; award name to confirm |
-| Japan podium | images/06-speaking-podium-japan.jpg | Events, Japan | Stored; forum title/date to confirm |
-| CeBIT 2015 | assets/events/2015-cebit/01-2015-cebit-team.jpg | Timeline, Events | Stored |
-| CeBIT 2016 | assets/events/2016-cebit/01-2016-cebit-team.jpg | Timeline, Events | Stored |
-| CeBIT 2017 | assets/events/2017-cebit/01-2017-cebit-team.jpg | Timeline, Events | Stored |
-| Expo 2025 Osaka | assets/events/2025-expo-2025-osaka/01-2025-expo-osaka.jpg | Events | Stored; inspect image to distinguish badge vs photograph |
+| Ruptela Day, Dubai 2025 | images/03-speaking-presentation-01.jpg | Events | Confirmed by user |
+| Office photograph | images/04-speaking-keynote-smile.jpg | Not an event image; preserve existing preferred black portrait | Confirmed by user |
+| Appreciation award presented to former Lithuanian Ambassador to UAE at Ruptela Day Dubai 2025 | images/05-award-recognition.jpg | Events | Confirmed by user; Firas presented the award, did not receive it |
+| Dubai personal photograph | images/06-speaking-podium-japan.jpg | Portrait/archive, not Japan or event | Confirmed by user; filename is misleading |
+| CeBIT 2015, Hannover Germany | assets/events/2015-cebit/01-2015-cebit-team.jpg | Timeline, Events | Confirmed by user |
+| CeBIT 2016, Hannover Germany | assets/events/2016-cebit/01-2016-cebit-team.jpg | Timeline, Events | Confirmed by user |
+| CeBIT 2017, Hannover Germany | assets/events/2017-cebit/01-2017-cebit-team.jpg | Timeline, Events | Confirmed by user |
+| Expo 2025 Osaka badge | assets/events/2025-expo-2025-osaka/01-2025-expo-osaka.jpg | Internal archive only | Confirmed by user; not event photograph |
+
+| IoT India Expo 2026 badge | assets/events/2026-iot-india-expo/01-2026-iot-india.jpg | Internal archive only | Confirmed by user; not event photograph |
 
 ## Public source references to validate and connect
 
