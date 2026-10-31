@@ -232,3 +232,8 @@ h1,h2,h3{font-family:Manrope,Inter,Arial,sans-serif;letter-spacing:-.045em;line-
 .events-grid .event-evidence-card .event-evidence-head{display:none!important}
 .events-grid .event-evidence-card{min-height:0!important}
 .events-grid .event-evidence-card .event-card-copy{padding:24px!important}
+
+/* International leadership world map */
+.international-map{margin:30px 0 0;width:100%;overflow:hidden;border-radius:16px;background:#0b0d10}
+.international-map img{display:block;width:100%;height:auto}
+@media(max-width:600px){.international-map{margin-top:22px;border-radius:10px}}
